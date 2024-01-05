@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    width: 80px;
+    height: 90vh;
+    position: relative;
+    border-radius: 20px;
+    margin: 15px;
+    background-position: center;
+    background-size: cover;
+}
+h4{
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.active{
+    width: 800px;
+}
